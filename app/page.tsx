@@ -1,30 +1,8 @@
 "use client";
+
 import { motion, Variants } from 'framer-motion';
 import Link from "next/link";
 import Image from "next/image";
-import type { Metadata } from 'next'
-
-export const metadata: Metadata = {
-  title: 'Flowers Events | Le bar vient à vous',
-  description: 'Découvrez nos services de bar à cocktails mobile pour vos événements.',
-  openGraph: {
-    title: 'Flowers Events | Le bar vient à vous',
-    description: 'Le meilleur des cocktails pour vos événements.',
-    url: 'https://flowersevents.fr',
-    siteName: 'Flowers Events',
-    images: [
-      {
-        url: 'https://flowersevents.fr/og-image.jpeg',
-        width: 1200,
-        height: 630,
-        alt: 'Flowers Events Aperçu',
-      },
-    ],
-    locale: 'fr_FR',
-    type: 'website',
-  },
-}
-
 
 const fadeUp: Variants = {
   hidden: { opacity: 0, y: 30 },
