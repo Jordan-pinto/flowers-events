@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <>
       {/* HERO SECTION */}
-      <section className="relative min-h-screen pt-32 pb-12 flex flex-col items-center justify-center text-center overflow-hidden">
+      <section className="relative min-h-screen pt-24 pb-12 flex flex-col items-center justify-center text-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
             src="/fond-accueil.jpg"
@@ -31,7 +31,7 @@ export default function Home() {
           initial="hidden"
           animate="visible"
           variants={fadeUp}
-          className="relative z-10 px-4 max-w-4xl mx-auto mt-20"
+          className="relative z-10 px-4 max-w-4xl mx-auto"
         >
           <h1 className="font-serif text-5xl md:text-7xl lg:text-8xl text-gold mb-6 leading-tight">
             VOTRE ÉVÉNEMENT.
