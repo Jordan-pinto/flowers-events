@@ -35,7 +35,7 @@ export default function Home() {
   return (
     <>
       {/* HERO SECTION */}
-      <section className="relative min-h-screen pt-44 pb-12 flex flex-col items-center justify-center text-center overflow-hidden">
+      <section className="relative min-h-screen pt-32 pb-12 flex flex-col items-center justify-center text-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
             src="/fond-accueil.jpg"
