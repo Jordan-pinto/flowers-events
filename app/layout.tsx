@@ -22,11 +22,20 @@ export const metadata: Metadata = {
     "prestation barman entreprise",
     "Flowers Events"
   ],
+  // Intégration de l'OpenGraph pour les réseaux sociaux :
   openGraph: {
     title: "FLOWERS EVENTS | Bar à cocktails éphémère",
     description: "Le bar vient directement à vous ! Dégustation sur-mesure et service premium pour votre événement sur Lyon et ses alentours.",
-    url: "https://www.flowersevents.fr", 
+    url: "https://flowersevents.fr", 
     siteName: "FLOWERS EVENTS",
+    images: [
+      {
+        url: "https://flowersevents.fr/og-image.jpeg",
+        width: 1200,
+        height: 630,
+        alt: "Flowers Events Aperçu",
+      },
+    ],
     locale: "fr_FR",
     type: "website",
   },
