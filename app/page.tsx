@@ -424,7 +424,6 @@ export default function Home() {
 
             <div className="mt-8 space-y-2 text-xs text-gray-400 font-light">
               <p>✓ Location/livraison tireuses + CO₂ inclus.</p>
-              <p>✓ <strong className="text-offwhite">Minimum 3 fûts</strong> pour déplacement des machines.</p>
               <p>✓ Tarifs sur base Pils premium 4,5% vol.</p>
               <div className="pt-4 mt-4 border-t border-gray-800/50 space-y-1">
                 <p>* Particuliers : Prix TTC</p>
