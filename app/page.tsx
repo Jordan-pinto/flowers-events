@@ -99,7 +99,7 @@ export default function Home() {
             véritable animation autour du cocktail.
           </p>
           <p className="text-gray-300 font-light">
-            Barman professionnel, alcools, ingrédients, glace, garnitures et
+            Barman professionnel, alcools, ingrédients, glaçons, garnitures et
             matériel : tout est prévu.
           </p>
         </motion.div>
